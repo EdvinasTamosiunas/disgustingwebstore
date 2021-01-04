@@ -1,12 +1,21 @@
 section .cart{
     position: relative;
-    
+    display: inline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    float: left;
     border: 1px solid #ccc;
+    padding: 15px 25px;
+    margin: 25px 20px 25px 20px;
+    
 }
 .amount span{
     padding: 0 20px;
 }
 .amount .count{
+    align-items: center;
+    display: inline;
+    color: black;
     width: 40px;
     height: 30px;
     border: 1px solid #555;

@@ -1,4 +1,4 @@
-import axios from 'axios';
+import '../css/Payment.css'
 import React, { Component } from 'react'
 import {DataContext} from '../Context'
 class Payment extends Component {
@@ -26,7 +26,7 @@ class Payment extends Component {
     render() {
         const {cart} = this.context;
         return (
-            <div>
+            <div id = "payment">
                 <h2 style={{textAlign: "center"}}>Mokejimas</h2>
                 <button onClick = {() => {this.handleClick(cart)}}>Sent it</button>
             </div>
